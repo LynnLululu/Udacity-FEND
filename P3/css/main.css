@@ -1,0 +1,111 @@
+body {
+  margin: 5%;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #2d3c49;
+}
+.main-container {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.logo {
+  float: left;
+  height:4em;
+}
+
+header h1, header h4 {
+  font-weight: lighter;
+  text-align: right;
+  line-height: 80%;
+}
+
+header {
+  border-bottom: 4px solid #7d97ad;
+}
+
+.mean_pic {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.featured_work h2 {
+  font-weight: lighter;
+  color: #7d97ad;
+}
+
+.container {
+  display: flex;
+}
+
+article {
+  text-align: center;
+}
+
+article img {
+  width: 100%;
+}
+
+article {
+  margin-right: 3%;
+}
+
+article:last-of-type {
+  margin-right: 0;
+}
+
+article h3 {
+  font-weight: lighter;
+  line-height: 10%;
+}
+article a {
+  font-size: 0.8em;
+  color: #2d3c49;
+  text-decoration: none;
+  line-height: 10%;
+}
+
+@media screen and (max-width:740px) and (min-width:470px) {
+  .container {
+    display: inherit;
+  }
+
+  article {
+    text-align: left;
+    margin: 3% 0;
+  }
+
+  article img {
+    width: 50%;
+  }
+
+  .discrition {
+    float: right;
+    text-align: left;
+    width: 42%;
+    margin-top: 5%;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width:630px) and (min-width:470px) {
+  .discrition {
+    width: 45%;
+    margin-top: 5%;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width:470px) {
+  .container {
+    display: inherit;
+  }
+
+  article {
+    margin: 0;
+  }
+
+  .discrition {
+    margin-bottom: 5%;
+  }
+}

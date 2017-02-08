@@ -4,6 +4,7 @@ body {
   font-weight: lighter;
   color: #2d3c49;
 }
+
 .main-container {
   margin: auto;
   max-width: 1000px;
@@ -14,7 +15,8 @@ body {
   height:4em;
 }
 
-header h1, header h4 {
+header h1,
+header p {
   font-weight: lighter;
   text-align: right;
   line-height: 80%;

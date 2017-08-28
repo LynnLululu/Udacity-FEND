@@ -22,6 +22,12 @@ API Course, Lesson 1 -->
          zoom: 13
        });
        // we used, 40.7413549, -73.99802439999996 or your own!
+       var tribeca = {lat: 40.7413549, lng: -73.99802439999996};
+       var marker = new google.maps.Marker({
+         position: tribeca,
+         map: map,
+         title: 'First Marker!'
+       });
      }
    </script>
    <!--TODO: Load the JS API ASYNCHRONOUSLY below.-->
